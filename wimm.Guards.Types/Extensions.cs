@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace wimm.Guards.Types
+﻿namespace wimm.Guards.Types
 {
+    /// <summary>
+    /// Extensions for constructing and manipulating Guards.Types
+    /// </summary>
     public static class Extensions
     {
         /// <summary>
@@ -16,7 +13,8 @@ namespace wimm.Guards.Types
         /// inheritance heirarchy and we don't want to have to expose a public constructor (for now). 
         /// [Conditional](PublicConstructor)
         /// </remarks>
-        /// <returns> A <see cref="Definitely{T}"/> containing the object <paramref name="toConvert"/> </returns>
+        /// <returns> A <see cref="Definitely{T}"/> containing a reference to <paramref name="toConvert"/> 
+        /// </returns>
         public static Definitely<T> ToDefinitely<T>(this T toConvert) where T : class
         {
             return new Definitely<T>(toConvert);
