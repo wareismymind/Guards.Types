@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wimm.Guards.Types", "wimm.Guards.Types\wimm.Guards.Types.csproj", "{F15ECF04-B139-4FA3-851E-F5E85667BC25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wimm.Guards.Types.Tests", "wimm.Guards.Types.Tests\wimm.Guards.Types.Tests.csproj", "{40E6E044-6140-4784-9072-79AB4FD55CDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F15ECF04-B139-4FA3-851E-F5E85667BC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F15ECF04-B139-4FA3-851E-F5E85667BC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F15ECF04-B139-4FA3-851E-F5E85667BC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E6E044-6140-4784-9072-79AB4FD55CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E6E044-6140-4784-9072-79AB4FD55CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E6E044-6140-4784-9072-79AB4FD55CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E6E044-6140-4784-9072-79AB4FD55CDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
