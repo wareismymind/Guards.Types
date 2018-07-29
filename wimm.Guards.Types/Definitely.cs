@@ -8,7 +8,7 @@ namespace wimm.Guards.Types
         public T Value => _set
             ? _value
             : throw new InvalidOperationException(
-                $"{nameof(Value)} was not set. You have default initialized this struct.");
+                $"{nameof(Value)} was not set. You have default initialized this {nameof(Definitely<T>)}.");
 
         private readonly bool _set;
         private readonly T _value;
